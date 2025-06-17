@@ -1,0 +1,43 @@
+/* 1 - Inheritance Practice Tasks */
+
+/* .maindiv {
+    padding: 50px;
+    margin: 50px;
+    border: 1px solid black;
+    font-family: Arial, sans-serif;
+    color: aquamarine;
+    line-height: normal;
+} */
+
+/* 2 - Specificity Practice Tasks */
+
+.div {
+    color: black;
+    background-color: yellow;
+}
+
+.box {
+    color: black;
+    background-color: pink;
+}
+
+#main {
+    color: black;
+    background-color: gold;
+}
+
+div {
+    color: blue;
+}
+
+.box1 {
+    color: green !important;
+}
+
+#main-box {
+    color: red;
+}
+
+.box2 {
+  color: blue;
+}

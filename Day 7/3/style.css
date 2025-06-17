@@ -1,0 +1,7 @@
+  .multi-bg {
+      width: 400px;
+      height: 400px;
+      background-image: url('../asset/1.jpg'), url('../asset/2.jpg');
+      background-position: left top, right bottom;
+      background-repeat: no-repeat, no-repeat;
+  }

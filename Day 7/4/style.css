@@ -1,0 +1,13 @@
+.repeat {
+    background-image: url('../asset/1.jpg');
+    background-repeat: repeat;
+    width: 300px;
+    height: 150px;
+}
+
+.no-repeat {
+    background-image: url('../asset/1.jpg');
+    background-repeat: no-repeat;
+    width: 300px;
+    height: 150px;
+}

@@ -1,0 +1,7 @@
+.bg-pos {
+    width: 400px;
+    height: 400px;
+    background-image: url('../asset/1.jpg');
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}

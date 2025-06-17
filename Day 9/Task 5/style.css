@@ -1,0 +1,28 @@
+.card-layout {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.card {
+    background: #f3f3f3;
+    padding: 20px;
+    flex: 1 1 30%;
+}
+
+.flex-ratio {
+    display: flex;
+    margin-top: 20px;
+}
+
+.flex-70 {
+    flex: 0 0 70%;
+    background: #aaf;
+    padding: 10px;
+}
+
+.flex-30 {
+    flex: 0 0 30%;
+    background: #faa;
+    padding: 10px;
+}

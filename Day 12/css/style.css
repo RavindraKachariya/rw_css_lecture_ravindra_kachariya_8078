@@ -1,0 +1,37 @@
+.section {
+    margin-bottom: 40px;
+}
+
+.title {
+    font-size: 20px;
+    margin: 10px 0;
+    color: #333;
+}
+
+.container {
+    display: flex;
+    border: 2px solid #ccc;
+    margin-bottom: 10px;
+    height: 100px;
+    width: 100%;
+    max-width: 800px;
+}
+
+.item {
+    color: white;
+    text-align: center;
+    line-height: 100px;
+    font-weight: bold;
+}
+
+.item1 {
+    background: #3498db;
+}
+
+.item2 {
+    background: #2ecc71;
+}
+
+.item3 {
+    background: #e74c3c;
+}

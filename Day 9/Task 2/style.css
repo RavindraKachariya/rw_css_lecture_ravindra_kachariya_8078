@@ -1,0 +1,53 @@
+.gallery img {
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+}
+
+.cover {
+    object-fit: cover;
+}
+
+.contain {
+    object-fit: contain;
+}
+
+.fill {
+    object-fit: fill;
+}
+
+.none {
+    object-fit: none;
+}
+
+.scale-down {
+    object-fit: scale-down;
+}
+
+.compare img {
+    width: 150px;
+    height: 150px;
+    margin: 10px;
+}
+
+.fixed-cover {
+    object-fit: cover;
+}
+
+.fixed-contain {
+    object-fit: contain;
+}
+
+.profile-card {
+    width: 200px;
+    text-align: center;
+    border: 1px solid #aaa;
+    padding: 10px;
+}
+
+.avatar {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 100%;
+}

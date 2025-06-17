@@ -1,0 +1,18 @@
+.scroll {
+    background-image: url('../asset/1.jpg');
+    background-attachment: scroll;
+    height: 300px;
+  }
+
+.fixed {
+    background-image: url('../asset/2.jpg');
+    background-attachment: fixed;
+    height: 300px;
+  }
+
+.local {
+    background-image: url('../asset/1.jpg');
+    background-attachment: local;
+    height: 300px;
+    overflow: auto;
+  }

@@ -1,0 +1,110 @@
+    body {
+        font-family: 'Segoe UI', sans-serif;
+        padding: 40px;
+        background-color: #f9f9f9;
+    }
+
+    h2 {
+        margin-top: 50px;
+        margin-bottom: 20px;
+        color: #333;
+        text-align: center;
+    }
+
+    .pagination {
+        display: flex;
+        list-style: none;
+        padding: 0;
+        margin-bottom: 40px;
+        gap: 8px;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    /* 1. Boxed Style */
+    .pagination.boxed li a {
+        padding: 8px 14px;
+        border: 1px solid #ddd;
+        text-decoration: none;
+        color: #333;
+        transition: 0.3s;
+    }
+
+    .pagination.boxed li a:hover,
+    .pagination.boxed .active a {
+        background: #007bff;
+        color: #fff;
+        border-color: #007bff;
+    }
+
+    /* 2. Pill Style */
+    .pagination.pill li a {
+        padding: 8px 16px;
+        border-radius: 50px;
+        text-decoration: none;
+        color: #007bff;
+        border: 1px solid #007bff;
+        transition: 0.3s;
+    }
+
+    .pagination.pill li a:hover,
+    .pagination.pill .active a {
+        background: #007bff;
+        color: white;
+    }
+
+    /* 3. Flat Underline Style */
+    .pagination.flat li a {
+        padding: 8px 12px;
+        text-decoration: none;
+        color: #555;
+        font-weight: 500;
+        border-bottom: 2px solid transparent;
+        transition: 0.3s;
+    }
+
+    .pagination.flat li a:hover,
+    .pagination.flat .active a {
+        color: #007bff;
+        border-bottom: 2px solid #007bff;
+    }
+
+    /* 4. Shadow Button Style */
+    .pagination.shadow li a {
+        padding: 8px 16px;
+        border: none;
+        border-radius: 8px;
+        background: #fff;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+        text-decoration: none;
+        color: #333;
+        transition: 0.3s;
+    }
+
+    .pagination.shadow li a:hover,
+    .pagination.shadow .active a {
+        background-color: #007bff;
+        color: #fff;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    }
+
+    /* 5. Circle Icon Style */
+    .pagination.circle li a {
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        background: #eee;
+        text-decoration: none;
+        color: #333;
+        transition: 0.3s;
+        font-weight: bold;
+    }
+
+    .pagination.circle li a:hover,
+    .pagination.circle .active a {
+        background: #007bff;
+        color: white;
+    }

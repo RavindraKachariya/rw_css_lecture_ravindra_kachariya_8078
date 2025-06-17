@@ -1,0 +1,14 @@
+.magic-btn {
+    font-weight: bold;
+    text-decoration: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    border: 2px solid #444;
+    background-color: white;
+}
+
+.magic-btn:hover {
+    text-decoration: underline;
+    letter-spacing: 2px;
+    border-color: #ff6600;
+}

@@ -1,0 +1,41 @@
+/* Css Pesudo Class Selector */
+
+/* h1:first-child{
+    background-color: green;
+} */
+
+/* h1:last-child{
+    background-color: green;
+} */
+
+/* h1:first-of-type{
+    background-color: green;
+} */
+
+/* h1:last-of-type{
+    background-color: green;
+} */
+
+/* h1:nth-child(4){
+    background-color: green;
+} */
+
+/* h1:nth-last-child(6){
+    background-color: green;
+} */
+
+/* h1:nth-of-type(10){
+    background-color: green;
+} */
+
+/* h1:nth-last-of-type(3){
+    background-color: green;
+} */
+
+/* h1:only-of-type{
+    background-color: green;
+} */
+
+h1:only-child {
+    background-color: green;
+}

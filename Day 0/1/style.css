@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.profile-card {
+    background-color: white;
+    padding: 20px 30px;
+    border-radius: 15px;
+    outline: 3px solid #000;
+    outline-offset: 10px;
+    text-align: center;
+    font-family: 'Segoe UI', sans-serif;
+    font-size: 16px;
+}
+
+.profile-card h2 {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-decoration: underline;
+}
+
+.profile-card p {
+    margin: 10px 0;
+    font-size: 14px;
+}
+
+.profile-card button {
+    padding: 10px 20px;
+    font-size: 14px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 8px;
+}

@@ -1,0 +1,203 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.maindiv {
+    height: 700px;
+    width: 700px;
+    background-color: grey;
+    border: 2px solid black;
+    position: relative;
+}
+
+.div1 {
+    height: 100px;
+    width: 100px;
+    background-color: aquamarine;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.mdiv1 {
+    height: 50px;
+    width: 50px;
+    background-color: blue;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.div2 {
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.mdiv2 {
+    height: 50px;
+    width: 50px;
+    background-color: yellow;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.div3 {
+    height: 100px;
+    width: 100px;
+    background-color: yellowgreen;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.mdiv3 {
+    height: 50px;
+    width: 50px;
+    background-color: palegreen;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.div4 {
+    height: 100px;
+    width: 100px;
+    background-color: palevioletred;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+.mdiv4 {
+    height: 50px;
+    width: 50px;
+    background-color: gold;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+.div5 {
+    height: 100px;
+    width: 100px;
+    background-color: yellow;
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+.mdiv5 {
+    height: 50px;
+    width: 50px;
+    background-color: khaki;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+.div6 {
+    height: 100px;
+    width: 100px;
+    background-color: green;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+}
+
+.mdiv6 {
+    height: 50px;
+    width: 50px;
+    background-color: skyblue;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+.div7 {
+    height: 100px;
+    width: 100px;
+    background-color: pink;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.mdiv7 {
+    height: 50px;
+    width: 50px;
+    background-color: lawngreen;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.div8 {
+    height: 100px;
+    width: 100px;
+    background-color: papayawhip;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+.mdiv8 {
+    height: 50px;
+    width: 50px;
+    background-color: navajowhite;
+    position: absolute;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+.div9 {
+    height: 100px;
+    width: 100px;
+    background-color: hotpink;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.mdiv9 {
+    height: 50px;
+    width: 50px;
+    background-color: violet;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
